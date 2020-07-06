@@ -1,0 +1,36 @@
+1.- Explain the difference between unit tests, integration tests, and acceptance tests.
+
+-Utit testing is performed to every isloted module of an application in order to make sure it works as expected.
+-Integration tests are performed to ensure that different modules work well when combined together.
+-Acceptance test are the last step in software testing, and validates if the application meets the costumer's criteria or bussines requiriments.
+
+2.- How does SCRUM work?
+
+SCRUM divides the development of a project into a series of iterative time intervals called sprints, the length of a sprints depends on the team requirements, but it's usually two or three weeks long. Everything starts with the product backlog, which is a flexible running list of requirements, features or fixes that need to be implemented for a given project. Then, during the spring planning ceremony, crucial tasks from the product backlog are selected in order to develop a deliverable feature during the next spring.
+
+While executing the spring, all team members perform a stand up ceremony every day. In order to expose what they're doing, what they accomplished, what are they going to work on and which challenges are they facing. If they have a problem, the team will identify and propose solutions to this problem in order to ensure that the team meets the expected outcomes and adapt the proud backlogs accordingly.
+
+Once the spring is done, the product should have a deliverable working feature, then another spring planning ceremony occurs and the process repeats itself until the final product is complete.
+
+3.- Kent Beck was the creator of Extreme Programming methodology, he proposed a new way to create software called TDD (Test-Driven Development). Explain how TDD works and why it is important to use it.
+
+TDD works turning every feature into a very specific set of test cases, then the code is written so that it passes all tests. This way, we can have the confidence that our code meets the requirements and makes the code base more maintainable and less prone to bugs.
+
+4.- Explain how Continuous Integration works and list its benefits.
+
+In a CI project, everyone in the development team is continuously integrating small code changes to the project. Every time a team member makes a change, they must run tests on a robust external platform, if they pass the test, they can keep making changes, if it does not, then the team member must fix the code and try again. The technique has the benefit of catching bugs as soon as possible and making a codebase more robust and maintainable, while improving overal sofware performance.
+
+5.- What are the main DevOps principles ?
+
+The main principles can be summarized into three concepts:
+
+a) Task Automation
+Repetitive task, such as testing is prone to errors, therefore these tasks should be automated before the integration begin
+
+b) Continuous deployment
+The team must have the ability to deliver a production-ready release on the fly. To ensure this, the team can adopt a continuous integration practice, in order to be able to deploy automatically and continuously.
+
+c) Fast response to feedback
+Feedback allows the team to learn from their mistakes, and achieve mastery. All problems should be identified and addressed as quickly as possible. Therefore, special attention to feedback is required.
+
+Other concepts that can be classified as DevOps principles are related to these three concepts. For example, to ensure fast response to feedback, the team needs great communication. To ensure Continuous deployment, continuous integration is a must.
