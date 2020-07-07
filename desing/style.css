@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: rgb(230, 230, 230);
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.routesContainer {
+  width: 80%;
+  display: block;
+  margin: 50px auto;
+}
+
+.routeCard {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+  border-left: 4px solid rgb(90, 144, 220);
+  min-width: 100%;
+  font-size: 0.9em;
+  margin: 5px 0px;
+}
+
+.routeCardDone {
+  border-left: 4px solid rgb(132, 173, 74);
+}
+
+.routeCardText {
+  height: 70px;
+  width: 70px;
+  margin:10px;
+}
+
+.routeCardTextLarge {
+  width: 150px;
+}
+
+.routeCardText h1 {
+  font-size: 0.9em;
+  color: rgba(196, 196, 196);
+}
+
+.routeStatus{
+  width: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.routeStatus span {
+   font-size: 1em;
+  padding: 3px 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(90, 144, 220);
+  color: white;
+}
+
+.routeStatusDone span {
+  background-color: rgb(132, 173, 74);
+}
